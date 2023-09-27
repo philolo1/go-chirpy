@@ -1,11 +1,15 @@
 # default route test
-GET localhost:8080
+GET localhost:8080/app
 
 # index route test 
-GET localhost:8080/index.html
+GET localhost:8080/app/index.html
 
 # not found test
-GET localhost:8080/something
+GET localhost:8080/app/something
 
 # not found test
-GET localhost:8080/assets/logo.png
+GET localhost:8080/app/assets/logo.png
+
+
+# not found test
+GET localhost:8080/healthz
