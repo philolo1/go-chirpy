@@ -13,3 +13,9 @@ GET localhost:8080/app/assets/logo.png
 
 # not found test
 GET localhost:8080/healthz
+
+# not found test
+GET localhost:8080/metrics
+
+# not found test
+GET localhost:8080/reset
