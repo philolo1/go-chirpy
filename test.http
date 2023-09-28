@@ -10,12 +10,21 @@ GET localhost:8080/app/something
 # not found test
 GET localhost:8080/app/assets/logo.png
 
+# not found test
+GET localhost:8080/app/assets
+
+
 
 # not found test
-GET localhost:8080/healthz
+GET localhost:8080/api/healthz
 
 # not found test
-GET localhost:8080/metrics
+GET localhost:8080/admin/metrics
 
 # not found test
-GET localhost:8080/reset
+GET localhost:8080/api/reset
+
+# not found test
+POST localhost:8080/api/healthz
+
+
